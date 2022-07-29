@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;400;500;600&display=swap');
+body{
+    font-family: 'Jost', sans-serif;  
+    margin: 0px;
+    background-color: #3450a1;
+    padding-bottom: 1000px;
+}
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width:98%;
+    height: 50px;
+    padding: 10px;
+    margin: 60px 0px 20px 0px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+span{
+    color: #041955;
+}
+.input-box{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px 30px 0px;
+    background-color: #041955;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.input-todo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#todo-title, #date-picker{
+    width: 200px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid #eb06ff;
+    border-radius: 50px;
+    text-align: center;
+}
+.button{
+    background-color: #eb06ff;
+    background-image:url(add_circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.2s;
+}
+.button:active{
+    background-size: 20px;
+}
